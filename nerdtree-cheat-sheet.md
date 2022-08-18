@@ -10,7 +10,7 @@ call plug#end()
 ```
 For more information about Vim-Plug, check out [here](https://github.com/junegunn/vim-plug).
 
-## Keybind for NERDTree
+## [Keybind for NERDTree](#mapping-key)
 Add this to `.vimrc` (vim version is `8.2`):
 ```
 map <F10> :NERDTreeToggle<CR>
@@ -69,3 +69,4 @@ Navagate to the NERDTree and highlight a new file, hit `s` to open it in a verti
 -------------------------------------
 ```
 Use `ctrl-w` + `w`(next window),`h`(left) or`l` (right),`j`(up),`k`(down)to move between NERDTree and vim window.
+`ctrl-w` can be mapped to other [keys](#mapping-key).
